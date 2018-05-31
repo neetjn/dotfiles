@@ -1,0 +1,11 @@
+[2018-05-31 09:07:55.399] [renderer1] [error] Unable to write to User Settings because materialTheme.cache.workbench is not a registered configuration.: Error: Unable to write to User Settings because materialTheme.cache.workbench is not a registered configuration.
+    at new t (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3753:9)
+    at e.wrapError (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3756:976)
+    at e.resolveAndValidate (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3759:742)
+    at e.doWriteConfiguration (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3753:862)
+    at Object.factory (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3753:595)
+    at t.e.consume (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:183:630)
+    at e.queue (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:183:417)
+    at new n.Class.derive._oncancel (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:147:657)
+    at t.e.queue (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:183:332)
+    at e.writeConfiguration (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3753:569)

@@ -1,0 +1,44 @@
+{
+    "workbench.colorTheme": "Material Theme Ocean",
+    "extensions.ignoreRecommendations": true,
+    "editor.fontSize": 11,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true
+    },
+    "python.disablePromptForFeatures": [
+        "pylint"
+    ],
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Operator Mono Lig, Consolas, 'Courier New', monospace",
+    "materialTheme.cache.workbench.settings": {
+        "themeColours": "Default High Contrast",
+        "accent": "Orange"
+    },
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#FF7042",
+        "list.activeSelectionForeground": "#FF7042",
+        "list.inactiveSelectionForeground": "#FF7042",
+        "list.highlightForeground": "#FF7042",
+        "scrollbarSlider.activeBackground": "#FF704250",
+        "editorSuggestWidget.highlightForeground": "#FF7042",
+        "textLink.foreground": "#FF7042",
+        "progressBar.background": "#FF7042",
+        "pickerGroup.foreground": "#FF7042",
+        "tab.activeBorder": "#FF7042",
+        "notificationLink.foreground": "#FF7042"
+    },
+    "terminal.integrated.fontWeight": "600",
+    "gitlens.keymap": "alternate",
+    "editor.mouseWheelZoom": true,
+    "editor.fontWeight": "600",
+    "window.zoomLevel": 0,
+    "terminal.integrated.scrollback": 2500,
+    "materialTheme.fixIconsRunning": false
+}

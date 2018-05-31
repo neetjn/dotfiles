@@ -1,0 +1,10 @@
+include ~/.nano/syntax/html.nanorc
+include ~/.nano/syntax/css.nanorc
+include ~/.nano/syntax/php.nanorc
+include ~/.nano/syntax/javascript.nanorc
+include ~/.nano/syntax/python.nanorc
+include ~/.nano/syntax/go.nanorc
+include ~/.nano/syntax/json.nanorc
+include ~/.nano/syntax/Dockerfile.nanorc
+include ~/.nano/syntax/cmake.nanorc
+include ~/.nano/syntax/java.nanorc

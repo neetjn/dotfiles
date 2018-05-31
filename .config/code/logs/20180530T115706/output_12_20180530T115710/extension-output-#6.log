@@ -1,0 +1,211 @@
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module atest.classes.assignments.test_b4x_download
+35,8,error,E1101:Instance of 'MONE' has no 'services' member
+37,8,error,E1101:Instance of 'MONE' has no 'services' member
+39,8,error,E1101:Instance of 'MONE' has no 'services' member
+41,32,error,E1101:Instance of 'Resource' has no 'assignments' member
+
+------------------------------------------------------------------
+Your code has been rated at 4.29/10 (previous run: 4.29/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module atest.__main__
+4,0,error,E0401:Unable to import 'constants'
+7,11,error,E0602:Undefined variable 'os'
+8,8,error,E0602:Undefined variable 'os'
+9,7,error,E0602:Undefined variable 'TEST_MODULE'
+10,28,error,E0602:Undefined variable 'TEST_MODULE'
+
+----------------------------------------------------------------------
+Your code has been rated at -21.25/10 (previous run: 10.00/10, -31.25)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module atest.__main__
+4,0,error,E0401:Unable to import 'constants'
+7,11,error,E0602:Undefined variable 'os'
+8,8,error,E0602:Undefined variable 'os'
+9,7,error,E0602:Undefined variable 'TEST_MODULE'
+10,28,error,E0602:Undefined variable 'TEST_MODULE'
+
+----------------------------------------------------------------------
+Your code has been rated at -21.25/10 (previous run: -21.25/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module atest.__main__
+4,0,error,E0401:Unable to import 'constants'
+7,11,error,E0602:Undefined variable 'os'
+8,8,error,E0602:Undefined variable 'os'
+9,7,error,E0602:Undefined variable 'TEST_MODULE'
+10,28,error,E0602:Undefined variable 'TEST_MODULE'
+
+----------------------------------------------------------------------
+Your code has been rated at -21.25/10 (previous run: -21.25/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module atest.__main__
+5,19,error,E0602:Undefined variable 'false'
+8,0,error,E0401:Unable to import 'constants'
+11,11,error,E0602:Undefined variable 'os'
+12,8,error,E0602:Undefined variable 'os'
+13,7,error,E0602:Undefined variable 'TEST_MODULE'
+14,28,error,E0602:Undefined variable 'TEST_MODULE'
+
+----------------------------------------------------------------------
+Your code has been rated at -20.00/10 (previous run: -21.25/10, +1.25)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module atest.__main__
+8,0,error,E0401:Unable to import 'constants'
+11,11,error,E0602:Undefined variable 'os'
+12,8,error,E0602:Undefined variable 'os'
+13,7,error,E0602:Undefined variable 'TEST_MODULE'
+14,28,error,E0602:Undefined variable 'TEST_MODULE'
+
+----------------------------------------------------------------------
+Your code has been rated at -15.00/10 (previous run: -20.00/10, +5.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module atest.__main__
+13,0,error,E0401:Unable to import 'constants'
+18,7,error,E0602:Undefined variable 'TEST_MODULE'
+19,28,error,E0602:Undefined variable 'TEST_MODULE'
+
+---------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: -15.00/10, +15.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module atest.__main__
+14,0,error,E0401:Unable to import 'constants'
+19,7,error,E0602:Undefined variable 'TEST_MODULE'
+20,28,error,E0602:Undefined variable 'TEST_MODULE'
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module atest.__main__
+15,0,error,E0401:Unable to import 'constants'
+20,7,error,E0602:Undefined variable 'TEST_MODULE'
+21,28,error,E0602:Undefined variable 'TEST_MODULE'
+
+------------------------------------------------------------------
+Your code has been rated at 1.18/10 (previous run: 0.00/10, +1.18)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module atest.__main__
+4,0,error,E0401:Unable to import 'constants'
+7,11,error,E0602:Undefined variable 'os'
+8,8,error,E0602:Undefined variable 'os'
+9,7,error,E0602:Undefined variable 'TEST_MODULE'
+10,28,error,E0602:Undefined variable 'TEST_MODULE'
+
+---------------------------------------------------------------------
+Your code has been rated at -21.25/10 (previous run: 1.18/10, -22.43)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module logging
+26,0,error,E0401:Unable to import 'os'
+26,0,error,E0401:Unable to import 'cStringIO'
+26,0,error,E0401:Unable to import 'warnings'
+26,0,error,E0401:Unable to import 'weakref'
+26,0,error,E0401:Unable to import 'collections'
+178,31,error,E0602:Undefined variable 'long'
+281,27,error,E0602:Undefined variable 'long'
+301,23,error,E0602:Undefined variable 'StandardError'
+323,35,error,E0602:Undefined variable 'basestring'
+868,40,error,E0602:Undefined variable 'unicode'
+1037,32,error,E0602:Undefined variable 'basestring'
+1039,28,error,E0602:Undefined variable 'unicode'
+
+-------------------------------------------------------------------
+Your code has been rated at 9.14/10 (previous run: 10.00/10, -0.86)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module logging
+26,0,error,E0401:Unable to import 'os'
+26,0,error,E0401:Unable to import 'cStringIO'
+26,0,error,E0401:Unable to import 'warnings'
+26,0,error,E0401:Unable to import 'weakref'
+26,0,error,E0401:Unable to import 'collections'
+178,31,error,E0602:Undefined variable 'long'
+281,27,error,E0602:Undefined variable 'long'
+301,23,error,E0602:Undefined variable 'StandardError'
+323,35,error,E0602:Undefined variable 'basestring'
+868,40,error,E0602:Undefined variable 'unicode'
+1037,32,error,E0602:Undefined variable 'basestring'
+1039,28,error,E0602:Undefined variable 'unicode'
+
+------------------------------------------------------------------
+Your code has been rated at 9.14/10 (previous run: 9.14/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.99/10, +0.01)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.14/10, +0.86)
+
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+No config file found, using default configuration
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+

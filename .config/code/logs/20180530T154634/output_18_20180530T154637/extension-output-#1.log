@@ -1,0 +1,20 @@
+Looking for git in: git
+Using git 2.7.4 from git
+git rev-parse --show-toplevel
+git config --get commit.template
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse ASGL-5220
+git rev-parse --symbolic-full-name --abbrev-ref ASGL-5220@{u}
+git rev-list --left-right ASGL-5220...origin/ASGL-5220
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :tests/test_certificate_collection.py
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse ASGL-5220
+git rev-parse --symbolic-full-name --abbrev-ref ASGL-5220@{u}
+git rev-list --left-right ASGL-5220...origin/ASGL-5220
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git check-ignore -z --stdin

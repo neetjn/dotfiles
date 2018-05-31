@@ -1,0 +1,630 @@
+Looking for git in: git
+Using git 2.7.4 from git
+git rev-parse --show-toplevel
+fatal: Not a git repository (or any of the parent directories): .git
+
+git rev-parse --show-toplevel
+git rev-parse --show-toplevel
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git symbolic-ref --short HEAD
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse master
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git symbolic-ref --short HEAD
+git rev-list --left-right master...origin/master
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-parse master
+git rev-list --left-right master...origin/master
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-parse master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git symbolic-ref --short HEAD
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-parse master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git symbolic-ref --short HEAD
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git symbolic-ref --short HEAD
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-parse ASGL-5305-2
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-parse --symbolic-full-name --abbrev-ref ASGL-5305-2@{u}
+git rev-parse master
+git symbolic-ref --short HEAD
+git rev-list --left-right ASGL-5305-2...origin/ASGL-5305-2
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-parse master
+git rev-list --left-right master...origin/master
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-parse master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-parse master
+git symbolic-ref --short HEAD
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-parse ASGL-5381
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git rev-parse --symbolic-full-name --abbrev-ref ASGL-5381@{u}
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git symbolic-ref --short HEAD
+git rev-list --left-right ASGL-5381...origin/ASGL-5381
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git symbolic-ref --short HEAD
+git rev-parse master
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-parse master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-list --left-right master...origin/master
+git rev-parse issue-106-neetjn
+git symbolic-ref --short HEAD
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-parse master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-parse --symbolic-full-name --abbrev-ref issue-106-neetjn@{u}
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-parse master
+git rev-list --left-right issue-106-neetjn...origin/issue-106-neetjn
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-parse branch-locust
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git symbolic-ref --short HEAD
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref branch-locust@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right branch-locust...origin/branch-locust
+git rev-parse master
+git rev-parse master
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-list --left-right master...origin/master
+git rev-parse master
+git symbolic-ref --short HEAD
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-parse QAT-1127-edge
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git symbolic-ref --short HEAD
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref QAT-1127-edge@{u}
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git symbolic-ref --short HEAD
+git rev-list --left-right QAT-1127-edge...origin/QAT-1127-edge
+git rev-parse master
+git rev-parse issue-neetjn-106
+git rev-list --left-right master...origin/master
+git rev-parse --symbolic-full-name --abbrev-ref issue-neetjn-106@{u}
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-parse QAT-1127-fixes-master
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-parse --symbolic-full-name --abbrev-ref QAT-1127-fixes-master@{u}
+git rev-list --left-right master...origin/master
+git rev-list --left-right issue-neetjn-106...origin/issue-neetjn-106
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git symbolic-ref --short HEAD
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-list --left-right QAT-1127-fixes-master...origin/QAT-1127-fixes-master
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git status -z -u
+git status -z -u
+git status -z -u
+git symbolic-ref --short HEAD
+git symbolic-ref --short HEAD
+git symbolic-ref --short HEAD
+git symbolic-ref --short HEAD
+git symbolic-ref --short HEAD
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-parse master-to-dev
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master-to-dev@{u}
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-parse master
+git rev-parse ASGL-5381
+git rev-parse master
+git rev-parse master
+git rev-parse master
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-parse --symbolic-full-name --abbrev-ref ASGL-5381@{u}
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master-to-dev...origin/master-to-dev
+git rev-parse master
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-list --left-right ASGL-5381...origin/ASGL-5381
+git rev-list --left-right master...origin/master
+git rev-list --left-right master...origin/master
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-parse master
+git symbolic-ref --short HEAD
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-parse ASGL-5381
+git rev-list --left-right master...origin/master
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref ASGL-5381@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right ASGL-5381...origin/ASGL-5381
+git rev-parse devel
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref devel@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-parse ASGL-5381
+git rev-list --left-right master...origin/master
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref ASGL-5381@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right devel...origin/devel
+git rev-parse master
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right ASGL-5381...origin/ASGL-5381
+git rev-parse master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-parse master
+git symbolic-ref --short HEAD
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-parse ASGL-4005-lp
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref ASGL-4005-lp@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right ASGL-4005-lp...origin/ASGL-4005-lp
+git rev-parse ASGL-5099
+git symbolic-ref --short HEAD
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-parse ASGL-5219
+git rev-list --left-right master...origin/master
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref ASGL-5219@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref ASGL-5099@{u}
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git symbolic-ref --short HEAD
+git rev-list --left-right ASGL-5099...origin/ASGL-5099
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right ASGL-5219...origin/ASGL-5219
+git rev-parse ASGL-5381
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref ASGL-5381@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-parse ASGL-5381
+git symbolic-ref --short HEAD
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right ASGL-5381...origin/ASGL-5381
+git rev-parse lds-base-url-fix
+git symbolic-ref --short HEAD
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref ASGL-5381@{u}
+git symbolic-ref --short HEAD
+git rev-list --left-right ASGL-5381...origin/ASGL-5381
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref lds-base-url-fix@{u}
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-parse ASGL-5220
+git symbolic-ref --short HEAD
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-list --left-right master...origin/master
+git rev-parse master
+git rev-list --left-right lds-base-url-fix...origin/lds-base-url-fix
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git config --get commit.template
+git status -z -u
+git rev-parse --show-toplevel
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref ASGL-5220@{u}
+git symbolic-ref --short HEAD
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git rev-parse master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-list --left-right master...origin/master
+git rev-parse master
+git rev-list --left-right ASGL-5220...origin/ASGL-5220
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git status -z -u
+git status -z -u
+git status -z -u
+git status -z -u
+git status -z -u
+git symbolic-ref --short HEAD
+git symbolic-ref --short HEAD
+git symbolic-ref --short HEAD
+git symbolic-ref --short HEAD
+git symbolic-ref --short HEAD
+git rev-parse lds-base-url-fix
+git rev-parse ASGL-5099
+git rev-parse master
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-parse --symbolic-full-name --abbrev-ref ASGL-5099@{u}
+git rev-parse --symbolic-full-name --abbrev-ref lds-base-url-fix@{u}
+git rev-parse master
+git rev-list --left-right lds-base-url-fix...origin/lds-base-url-fix
+git rev-list --left-right ASGL-5099...origin/ASGL-5099
+git rev-list --left-right master...origin/master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
