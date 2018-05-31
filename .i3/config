@@ -191,3 +191,6 @@ bindsym $mod+Shift+1 move workspace to output left
 
 # move window to right monitor
 bindsym $mod+Shift+2 move workspace to output right
+
+# screenshots with gyazo
+bindsym Print exec "gyazo"
