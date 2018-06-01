@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/vagrant/.oh-my-zsh
+  export ZSH=/home/john/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -92,7 +92,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-alias fiddler="mono /home/vagrant/fiddler/Fiddler.exe"
-alias ecr-access="make play playbook=ecr -C /home/vagrant/Development/qat-playbooks"
-alias quickdeploy="JVMGUY=1 bash /home/vagrant/Development/al-tools/quickdeploy.sh"
