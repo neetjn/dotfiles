@@ -194,3 +194,6 @@ bindsym $mod+Shift+2 move workspace to output right
 
 # screenshots with gyazo
 bindsym Print exec "gyazo"
+
+# restore nitrogen settings on startup
+exec "nitrogen --restore"
