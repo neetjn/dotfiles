@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+##
+# Author: John Nolette
+#   This script generates an installation script for vscode extensions using a snapshot of the current environment.
+##
+
 CODE_PATH=$(echo $(which code))
 SCRIPT_NAME="install-code-extensions.sh"
 HOME_PATH=$(echo ~)
