@@ -2,7 +2,7 @@
 
 ##
 # Author: John Nolette
-#   This script installs my desired vim plugins.
+#   This script installs my desired vim plugins using apt-vim.
 ##
 
 PLUGINS=(
