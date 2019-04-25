@@ -39,13 +39,14 @@ floating_modifier Mod1
 bindsym Mod1+space exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -nb #d2d2d2 -nf #000000 -sb #63a0ff"
 
 # start a terminal instance
-bindsym Mod1+Shift+t exec "xterm"
+bindsym Mod1+Shift+t exec "xfce4-terminal"
 
 # kill focused window
 bindsym Mod1+Shift+c kill
 
 # start dmenu (a program launcher)
 bindsym Mod1+d exec dmenu_run
+bindsym Mod1+Shift+d exec "xfce4-popup-whiskermenu"
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -155,11 +156,15 @@ bindsym Mod1+r mode "resize"
 # finds out, if available)
 bar {
   status_command i3status
+  font pango:Firacode Bold 10
   colors {
-    statusline #AAAAAA
-    background #333333
-    focused_workspace #282828 #282828 #FFFFFF
-    inactive_workspace #333333 #333333 #AAAAAA
+    separator #333333
+    background #2c001e
+    statusline #aea79f
+    focused_workspace #dd4814 #dd4814 #ffffff
+    active_workspace #902a07 #902a07 #aea79f
+    inactive_workspace #902a07 #902a07 #aea79f
+    urgent_workspace #77216f #77216f #ffffff
   }
 }
 
@@ -181,10 +186,6 @@ exec --no-startup-id qubes-i3-xdg-autostart
 #######################################################################
 exec i3-config-wizard
 
-client.unfocused #333333 #333333 #FFFFFF #333333
-client.focused_inactive #333333 #333333 #FFFFFF #000000
-client.focused #000000 #000000 #FFFFFF #000000
-
 # move window to left monitor
 bindsym $mod+Shift+1 move workspace to output left
 
@@ -196,3 +197,11 @@ bindsym Print exec "gyazo"
 
 # restore nitrogen settings on startup
 exec "nitrogen --restore"
+
+# restart related al services
+exec "docker restart sessions sessions-redis users courses srp users"
+
+client.focused #dd4814 #dd4814 #ffffff #902a07
+client.focused_inactive #5e2750 #5e2750 #aea79f #5e2750
+client.unfocused #5e2750 #5e2750 #aea79f #5e2750
+client.urgent #77216f #77216f #ffffff #efb73e
