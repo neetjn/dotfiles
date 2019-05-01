@@ -48,3 +48,4 @@ code --install-extension slb235.vscode-coffeelint
 code --install-extension orta.vscode-jest
 code --install-extension ms-vscode.cpptools
 code --install-extension austin.code-gnu-global
+code --install-extension RobbOwen.synthwave-vscode
