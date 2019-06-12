@@ -16,7 +16,7 @@
     "workbench.sideBar.location": "right",
     "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "editor.fontLigatures": true,
-    "editor.fontFamily": "Fira Code iScript, Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Hack",
     "materialTheme.cache.workbench.settings": {
         "themeColours": "Default High Contrast",
         "accent": "Orange"
