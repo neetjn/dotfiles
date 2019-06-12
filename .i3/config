@@ -184,7 +184,7 @@ exec --no-startup-id qubes-i3-xdg-autostart
 #
 # Please remove the following exec line:
 #######################################################################
-exec i3-config-wizard
+# exec i3-config-wizard
 
 # move window to left monitor
 bindsym $mod+Shift+1 move workspace to output left
@@ -202,3 +202,8 @@ client.focused #dd4814 #dd4814 #ffffff #902a07
 client.focused_inactive #5e2750 #5e2750 #aea79f #5e2750
 client.unfocused #5e2750 #5e2750 #aea79f #5e2750
 client.urgent #77216f #77216f #ffffff #efb73e
+
+for_window [class="^.*"] border pixel 2
+smart_borders on
+gaps inner 10
+gaps outer 10
