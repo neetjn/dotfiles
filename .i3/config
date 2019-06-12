@@ -198,9 +198,6 @@ bindsym Print exec "gyazo"
 # restore nitrogen settings on startup
 exec "nitrogen --restore"
 
-# restart related al services
-exec "docker restart sessions sessions-redis users courses srp users"
-
 client.focused #dd4814 #dd4814 #ffffff #902a07
 client.focused_inactive #5e2750 #5e2750 #aea79f #5e2750
 client.unfocused #5e2750 #5e2750 #aea79f #5e2750
