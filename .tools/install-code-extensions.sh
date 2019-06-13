@@ -50,3 +50,4 @@ code --install-extension ms-vscode.cpptools
 code --install-extension austin.code-gnu-global
 code --install-extension RobbOwen.synthwave-vscode
 code --install-extension be5invis.vscode-custom-css
+code --install-extension sdras.night-owl
