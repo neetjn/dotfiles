@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Material Theme Ocean",
+    "workbench.colorTheme": "Material Theme",
     "extensions.ignoreRecommendations": true,
     "editor.fontSize": 11,
     "files.exclude": {
@@ -14,31 +14,62 @@
         "pylint"
     ],
     "workbench.sideBar.location": "right",
-    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.fontLigatures": true,
     "editor.fontFamily": "Hack",
+    "editor.fontWeight": "600",    
     "materialTheme.cache.workbench.settings": {
         "themeColours": "Default High Contrast",
         "accent": "Orange"
     },
     "workbench.colorCustomizations": {
-        "activityBarBadge.background": "#FF7042",
-        "list.activeSelectionForeground": "#FF7042",
-        "list.inactiveSelectionForeground": "#FF7042",
-        "list.highlightForeground": "#FF7042",
-        "scrollbarSlider.activeBackground": "#FF704250",
-        "editorSuggestWidget.highlightForeground": "#FF7042",
-        "textLink.foreground": "#FF7042",
-        "progressBar.background": "#FF7042",
-        "pickerGroup.foreground": "#FF7042",
-        "tab.activeBorder": "#FF7042",
-        "notificationLink.foreground": "#FF7042"
+        "activityBarBadge.background": "#FF4081",
+        "list.activeSelectionForeground": "#FF4081",
+        "list.inactiveSelectionForeground": "#FF4081",
+        "list.highlightForeground": "#FF4081",
+        "scrollbarSlider.activeBackground": "#FF408150",
+        "editorSuggestWidget.highlightForeground": "#FF4081",
+        "textLink.foreground": "#FF4081",
+        "progressBar.background": "#FF4081",
+        "pickerGroup.foreground": "#FF4081",
+        "tab.activeBorder": "#FF4081",
+        "notificationLink.foreground": "#FF4081",
+        "editorWidget.resizeBorder": "#FF4081",
+        "editorWidget.border": "#FF4081",
+        "settings.modifiedItemForeground": "#FFA000",
+        "panelTitle.activeBorder": "#FF4081",
+        "settings.modifiedItemIndicator": "#FF4081",
+        "settings.headerForeground": "#FF4081",
+        "breadcrumb.activeSelectionForeground": "#FF4081",
+        "menu.selectionForeground": "#FF4081",
+        "menubar.selectionForeground": "#FF4081"
     },
     "terminal.integrated.fontWeight": "600",
-    "gitlens.keymap": "alternate",
+    "gitlens.keymap": "none",
     "editor.mouseWheelZoom": true,
-    "editor.fontWeight": "600",
     "window.zoomLevel": 0,
-    "terminal.integrated.scrollback": 2500,
-    "materialTheme.fixIconsRunning": false
+    "terminal.integrated.scrollback": 3000,
+    "materialTheme.fixIconsRunning": false,
+    "gitlens.historyExplorer.enabled": false,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/v/**": true,
+        "**/dist/**": true
+    },
+    "pomodoro.task_duarion": 15,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.rendererType": "dom",
+    "materialTheme.accentPrevious": "Orange",
+    "materialTheme.accent": "Pink",
+    "window.menuBarVisibility": "toggle",
+    "material-icon-theme.folders.theme": "specific",
+    "vscode_custom_css.imports": [
+        "file:///home/vagrant/synthwave-84.css"
+    ]
 }
