@@ -198,12 +198,14 @@ bindsym Print exec "gyazo"
 # restore nitrogen settings on startup
 exec "nitrogen --restore"
 
-client.focused #d70a53 #d70a53 #ffffff #8c0333
-client.focused_inactive #333333 #333333 #888888 #333333
-client.unfocused #333333 #333333 #888888 #333333
-client.urgent #eb709b #eb709b #ffffff #eb709b
-
+# i3 gaps styling
 for_window [class="^.*"] border pixel 1
 smart_borders on
 gaps inner 10
 gaps outer 10
+
+# i3 color scheme ; i3-style debian theme
+client.focused #d70a53 #d70a53 #ffffff #8c0333
+client.focused_inactive #333333 #333333 #888888 #333333
+client.unfocused #333333 #333333 #888888 #333333
+client.urgent #eb709b #eb709b #ffffff #eb709b
