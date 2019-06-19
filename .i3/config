@@ -203,7 +203,7 @@ client.focused_inactive #5e2750 #5e2750 #aea79f #5e2750
 client.unfocused #5e2750 #5e2750 #aea79f #5e2750
 client.urgent #77216f #77216f #ffffff #efb73e
 
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 1
 smart_borders on
 gaps inner 10
 gaps outer 10
