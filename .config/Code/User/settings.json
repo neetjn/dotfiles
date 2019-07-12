@@ -2,6 +2,10 @@
     "workbench.colorTheme": "Material Theme",
     "extensions.ignoreRecommendations": true,
     "editor.fontSize": 11,
+    "files.associations": {
+        "*.tag": "htmltag",
+        "*.riot": "htmltag"
+    },
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
