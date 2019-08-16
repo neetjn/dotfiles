@@ -1,15 +1,78 @@
-execute pathogen#infect()
-call pathogen#helptags()
-map <C-n> :NERDTreeToggle<CR>
+call plug#begin('~/.vim/plugged')
+
+" file management
+Plug 'tpope/vim-vinegar'
+Plug 'ctrlpvim/ctrlp.vim'
+
+" language implementation
+Plug 'vim-python/python-syntax'
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'kchmck/vim-coffee-script'
+Plug 'ryym/vim-riot'
+Plug 'mxw/vim-jsx'
+Plug 'posva/vim-vue'
+Plug 'evanleck/vim-svelte'
+
+" code syntax and standards
+Plug 'nvie/vim-flake8'
+Plug 'dgraham/vim-eslint'
+Plug 'sgur/vim-editorconfig'
+
+" code utilities
+Plug 'itchyny/vim-gitbranch'
+Plug 'Valloric/YouCompleteMe'
+Plug 'tpope/vim-fugitive'
+
+call plug#end()
+
 syntax on
-let NERDTreeShowHidden = 1
-let g:ctrlp_show_hidden = 1
-let g:python_highlight_all = 1
-let g:jsx_ext_required = 1
-let g:javascript_plugin_flow = 1
-let g:javascript_plugin_ngdoc = 1
-let g:javascript_plugin_jsdoc = 1
 set number
+set relativenumber
+set hlsearch
 set splitbelow
 set t_Co=256
 colorscheme azuki
+
+" indentation
+set tabstop=8
+set softtabstop=0
+set expandtab
+set shiftwidth=4
+set smarttab
+set backspace=indent,eol,start
+set tw=0
+
+" highlight whitespace
+set list
+set listchars=
+"set listchars+=eol:↲
+set listchars+=tab:→\
+set listchars+=trail:∙
+set listchars+=extends:»
+set listchars+=precedes:«
+set listchars+=nbsp:⣿
+set showbreak=↪\
+"if has('patch-7.4.710')
+"   set listchars+=space:𐄙
+"endif
+
+" show hidden files with ctrpl
+let g:ctrlp_show_hidden = 1
+
+" enable python highlighting
+let g:python_highlight_all = 1
+
+" enable javascript plugins
+let g:javascript_plugin_flow = 1
+let g:javascript_plugin_ngdoc = 1
+let g:javascript_plugin_jsdoc = 1
+
+" require jsx for syntax highlighting
+let g:jsx_ext_required = 1
+
+" lint current file
+noremap <leader>l  :make % <cr>:cwindow<cr>:redraw!<cr>
+
+" lint and fix current file
+noremap <leader>lf :make --fix % <cr>:cwindow<cr>:redraw!<cr>
