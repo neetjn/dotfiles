@@ -38,6 +38,7 @@ code --install-extension teabyii.ayu
 code --install-extension nonylene.dark-molokai-theme
 code --install-extension ms-vscode.theme-1337
 code --install-extension ryu1kn.text-marker
+code --install-extension jamesbirtles.svelte-vscode
 code --install-extension webreflection.literally-html
 code --install-extesion alefragnani.bookmarks
 code --install-extension dart-code.dart-code
