@@ -38,6 +38,7 @@ set splitbelow
 " set theme
 set t_Co=256
 colorscheme challenger_deep
+hi Normal guibg=NONE ctermbg=NONE
 
 " enable true colors
 if has('nvim') || has('termguicolors')
