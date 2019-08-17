@@ -24,6 +24,9 @@ Plug 'itchyny/vim-gitbranch'
 Plug 'Valloric/YouCompleteMe'
 Plug 'tpope/vim-fugitive'
 
+" themes
+Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
+
 call plug#end()
 
 syntax on
@@ -31,8 +34,16 @@ set number
 set relativenumber
 set hlsearch
 set splitbelow
+
+" set theme
 set t_Co=256
-colorscheme azuki
+colorscheme challenger_deep
+
+" enable true colors
+if has('nvim') || has('termguicolors')
+  set termguicolors
+endif
+
 
 " indentation
 set tabstop=8
