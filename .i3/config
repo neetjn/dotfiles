@@ -156,7 +156,7 @@ bindsym Mod1+r mode "resize"
 # finds out, if available)
 bar {
   status_command i3status
-  font pango:Firacode Bold 10
+  font pango:Firacode Bold 11
   colors {
     separator #333333
     background #2c001e
