@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 " file management
 Plug 'tpope/vim-vinegar'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'webdevel/tabulous'
 
 " language implementation
 Plug 'vim-python/python-syntax'
@@ -21,8 +22,15 @@ Plug 'sgur/vim-editorconfig'
 
 " code utilities
 Plug 'itchyny/vim-gitbranch'
+Plug 'itchyny/lightline.vim'
 Plug 'Valloric/YouCompleteMe'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-commentary'
+Plug 'itchyny/vim-gitbranch'
+Plug 'vim-airline/vim-airline'
+Plug 'junegunn/goyo.vim'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'Valloric/YouCompleteMe'
 
 " themes
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
@@ -44,7 +52,6 @@ hi Normal guibg=NONE ctermbg=NONE
 if has('nvim') || has('termguicolors')
   set termguicolors
 endif
-
 
 " indentation
 set tabstop=8
@@ -88,3 +95,7 @@ noremap <leader>l  :make % <cr>:cwindow<cr>:redraw!<cr>
 
 " lint and fix current file
 noremap <leader>lf :make --fix % <cr>:cwindow<cr>:redraw!<cr>
+
+" lightline color scheme
+" set laststatus=2
+" let g:lightline = { 'colorscheme': 'seoul256' }
