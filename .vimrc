@@ -4,6 +4,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-vinegar'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'webdevel/tabulous'
+Plug 'mbbill/undotree'
 
 " language implementation
 Plug 'vim-python/python-syntax'
@@ -14,13 +15,25 @@ Plug 'ryym/vim-riot'
 Plug 'mxw/vim-jsx'
 Plug 'posva/vim-vue'
 Plug 'evanleck/vim-svelte'
+Plug 'groenewege/vim-less'
+Plug 'ap/vim-css-color'
+Plug 'ekalinin/dockerfile.vim'
+Plug 'mustache/vim-mustache-handlebars'
+Plug 'wavded/vim-stylus'
+Plug 'glench/vim-jinja2-syntax'
+Plug 'chase/vim-ansible-yaml'
+Plug 'chr4/nginx.vim'
+Plug 'jnwhiteh/vim-golang'
+Plug 'flowtype/vim-flow'
 
 " code syntax and standards
 Plug 'nvie/vim-flake8'
 Plug 'dgraham/vim-eslint'
 Plug 'sgur/vim-editorconfig'
+Plug 'prettier/vim-prettier'
 
 " code utilities
+Plug 'airblade/vim-gitgutter'
 Plug 'itchyny/vim-gitbranch'
 Plug 'itchyny/lightline.vim'
 Plug 'Valloric/YouCompleteMe'
@@ -31,9 +44,18 @@ Plug 'vim-airline/vim-airline'
 Plug 'junegunn/goyo.vim'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'Valloric/YouCompleteMe'
+Plug 'raimondi/delimitmate'
+Plug 'suan/vim-instant-markdown'
+Plug 'heavenshell/vim-jsdoc'
+Plug 'mattesgroeger/vim-bookmarks'
+Plug 'amirh/html-autoclosetag'
 
 " themes
+Plug 'arcticicestudio/nord-vim'
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
+
+" vim file icons
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
@@ -42,6 +64,8 @@ set number
 set relativenumber
 set hlsearch
 set splitbelow
+set updatetime=100
+set encoding=UTF-8
 
 " set theme
 set t_Co=256
