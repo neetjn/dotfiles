@@ -49,6 +49,7 @@ Plug 'suan/vim-instant-markdown'
 Plug 'heavenshell/vim-jsdoc'
 Plug 'mattesgroeger/vim-bookmarks'
 Plug 'amirh/html-autoclosetag'
+Plug 'severin-lemaignan/vim-minimap'
 
 " themes
 Plug 'arcticicestudio/nord-vim'
