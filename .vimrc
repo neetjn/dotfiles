@@ -124,3 +124,7 @@ noremap <leader>lf :make --fix % <cr>:cwindow<cr>:redraw!<cr>
 " lightline color scheme
 " set laststatus=2
 " let g:lightline = { 'colorscheme': 'seoul256' }
+
+" fuzzy file finder
+let g:ctrlp_max_files=0
+let g:ctrlp_max_depth=1000
