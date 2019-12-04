@@ -25,6 +25,7 @@ Plug 'chase/vim-ansible-yaml'
 Plug 'chr4/nginx.vim'
 Plug 'jnwhiteh/vim-golang'
 Plug 'flowtype/vim-flow'
+Plug 'lcolaholicl/vim-v'
 
 " code syntax and standards
 Plug 'nvie/vim-flake8'
@@ -40,7 +41,6 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
 Plug 'itchyny/vim-gitbranch'
-Plug 'vim-airline/vim-airline'
 Plug 'junegunn/goyo.vim'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'Valloric/YouCompleteMe'
@@ -54,6 +54,9 @@ Plug 'severin-lemaignan/vim-minimap'
 " themes
 Plug 'arcticicestudio/nord-vim'
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
+Plug 'drewtempelmeyer/palenight.vim', { 'as': 'palenight' }
+Plug 'morhetz/gruvbox'
+Plug 'AlessandroYorba/Sierra', { 'as': 'sierra' }
 
 " vim file icons
 Plug 'ryanoasis/vim-devicons'
@@ -70,8 +73,7 @@ set encoding=UTF-8
 
 " set theme
 set t_Co=256
-colorscheme challenger_deep
-hi Normal guibg=NONE ctermbg=NONE
+colorscheme sierra
 
 " enable true colors
 if has('nvim') || has('termguicolors')
@@ -124,3 +126,7 @@ noremap <leader>lf :make --fix % <cr>:cwindow<cr>:redraw!<cr>
 " lightline color scheme
 " set laststatus=2
 " let g:lightline = { 'colorscheme': 'seoul256' }
+
+" fuzzy file finder
+let g:ctrlp_max_files=0
+let g:ctrlp_max_depth=1000
