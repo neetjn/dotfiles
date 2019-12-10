@@ -155,16 +155,17 @@ bindsym Mod1+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
+  position top
   status_command i3status
   font pango:Firacode Bold 8
   colors {
-    separator #333333
-    background #2c001e
-    statusline #aea79f
-    focused_workspace #dd4814 #dd4814 #ffffff
-    active_workspace #902a07 #902a07 #aea79f
-    inactive_workspace #902a07 #902a07 #aea79f
-    urgent_workspace #77216f #77216f #ffffff
+    separator #928374
+    background #282828
+    statusline #ebdbb2
+    focused_workspace #689d6a #689d6a #282828
+    active_workspace #1d2021 #1d2021 #928374
+    inactive_workspace #32302f #32302f #928374
+    urgent_workspace #cc241d #cc241d #ebdbb2
   }
 }
 
@@ -192,13 +193,17 @@ bindsym $mod+Shift+1 move workspace to output left
 # move window to right monitor
 bindsym $mod+Shift+2 move workspace to output right
 
+# disable notifications
+bindsym $mod+Shift+y systemctl --user stop dunst.service
+bindsym $mod+Shift+u systemctl --user start dunst.service
+
 # audio and brightness controls
 bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+ unmute
 bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%- unmute
 bindsym XF86AudioMute exec amixer -D pulse sset Master toggle
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 
-bindsym XF86KbdBrightnessUp exec echo 120 | sudo tee /sys/class/leds/smc::kbd_backlight/brightness
+bindsym XF86KbdBrightnessUp exec echo 200 | sudo tee /sys/class/leds/smc::kbd_backlight/brightness
 bindsym XF86KbdBrightnessDown exec echo 0 | sudo tee /sys/class/leds/smc::kbd_backlight/brightness
 
 # screenshots with gyazo
@@ -216,11 +221,14 @@ exec "blueman-applet"
 # start audio applet
 exec "volumeicon"
 
-# rebin keys
+# start redshift
+exec "redshift-gtk"
+
+# rebind keys
 exec "xmodmap ~/.Xmodmap"
 
 # enable tap clicking on trackpad
-exec "xinput set-prop 11 287 1 && xinput set-prop 11 288 1"
+exec "xinput set-prop 11 288 1 && xinput set-prop 11 289 1"
 
 # i3 gaps styling
 for_window [class="^.*"] border pixel 1
@@ -229,7 +237,7 @@ gaps inner 15
 gaps outer 15
 
 # i3 color scheme ; i3-style debian theme
-client.focused #dd4814 #dd4814 #ffffff #902a07
-client.focused_inactive #5e2750 #5e2750 #aea79f #5e2750
-client.unfocused #5e2750 #5e2750 #aea79f #5e2750
-client.urgent #77216f #77216f #ffffff #efb73e
+client.focused #689d6a #689d6a #282828 #282828
+client.focused_inactive #1d2021 #1d2021 #928374 #282828
+client.unfocused #32302f #32302f #928374 #282828
+client.urgent #cc241d #cc241d #ebdbb2 #282828
