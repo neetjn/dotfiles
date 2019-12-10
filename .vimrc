@@ -57,6 +57,9 @@ Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
 Plug 'drewtempelmeyer/palenight.vim', { 'as': 'palenight' }
 Plug 'morhetz/gruvbox'
 Plug 'AlessandroYorba/Sierra', { 'as': 'sierra' }
+Plug 'flrnd/plastic.vim', { 'as': 'plastic' }
+Plug 'relastle/bluewery.vim', { 'as': 'bluewery' }
+Plug 'artanikin/vim-synthwave84', { 'as': 'synthwave84' }
 
 " vim file icons
 Plug 'ryanoasis/vim-devicons'
@@ -70,9 +73,11 @@ set hlsearch
 set splitbelow
 set updatetime=100
 set encoding=UTF-8
+set ic
 
 " set theme
 set t_Co=256
+set bg=dark
 colorscheme sierra
 
 " enable true colors
