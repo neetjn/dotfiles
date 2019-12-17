@@ -81,6 +81,11 @@ set bg=dark
 colorscheme sierra
 
 " enable true colors
+" - cloud9
+if match($TERM, "screen")!=-1
+  set term=xterm
+endif
+" - nvim
 if has('nvim') || has('termguicolors')
   set termguicolors
 endif
