@@ -60,6 +60,7 @@ Plug 'AlessandroYorba/Sierra', { 'as': 'sierra' }
 Plug 'flrnd/plastic.vim', { 'as': 'plastic' }
 Plug 'relastle/bluewery.vim', { 'as': 'bluewery' }
 Plug 'artanikin/vim-synthwave84', { 'as': 'synthwave84' }
+Plug 'sainnhe/gruvbox-material'
 
 " vim file icons
 Plug 'ryanoasis/vim-devicons'
@@ -75,20 +76,34 @@ set updatetime=100
 set encoding=UTF-8
 set ic
 
-" set theme
-set t_Co=256
-set bg=dark
-colorscheme sierra
-
 " enable true colors
+
+" - xterm
+if $TERM == "xterm-256color"
+  set t_Co=256
+endif
+
 " - cloud9
 if match($TERM, "screen")!=-1
   set term=xterm
 endif
+
 " - nvim
 if has('nvim') || has('termguicolors')
   set termguicolors
 endif
+
+" set theme
+set background=dark
+" set contrast
+" this configuration option should be placed before `colorscheme gruvbox-material`
+" available values: 'hard', 'medium'(default), 'soft'
+let g:gruvbox_material_background = 'soft'
+colorscheme gruvbox-material
+
+" set lightline theme
+let g:lightline = {}
+let g:lightline.colorscheme = 'gruvbox_material'
 
 " indentation
 set tabstop=8
@@ -132,10 +147,6 @@ noremap <leader>l  :make % <cr>:cwindow<cr>:redraw!<cr>
 
 " lint and fix current file
 noremap <leader>lf :make --fix % <cr>:cwindow<cr>:redraw!<cr>
-
-" lightline color scheme
-" set laststatus=2
-" let g:lightline = { 'colorscheme': 'seoul256' }
 
 " fuzzy file finder
 let g:ctrlp_max_files=0
