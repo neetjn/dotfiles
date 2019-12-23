@@ -26,6 +26,7 @@ Plug 'chr4/nginx.vim'
 Plug 'jnwhiteh/vim-golang'
 Plug 'flowtype/vim-flow'
 Plug 'lcolaholicl/vim-v'
+Plug 'rust-lang/rust.vim'
 
 " code syntax and standards
 Plug 'nvie/vim-flake8'
