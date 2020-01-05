@@ -39,7 +39,7 @@ floating_modifier Mod1
 bindsym Mod1+space exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -nb #d2d2d2 -nf #000000 -sb #63a0ff"
 
 # start a terminal instance
-bindsym Mod1+Shift+t exec "xfce4-terminal"
+bindsym Mod1+Shift+t exec "gnome-terminal"
 
 # kill focused window
 bindsym Mod1+Shift+c kill
@@ -128,43 +128,54 @@ bindsym Mod1+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
+  # These bindings trigger as soon as you enter the resize mode
 
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym $left       resize shrink width 10 px or 10 ppt
-        bindsym $down       resize grow height 10 px or 10 ppt
-        bindsym $up         resize shrink height 10 px or 10 ppt
-        bindsym $right      resize grow width 10 px or 10 ppt
+  # Pressing left will shrink the window’s width.
+  # Pressing right will grow the window’s width.
+  # Pressing up will shrink the window’s height.
+  # Pressing down will grow the window’s height.
+  bindsym $left       resize shrink width 10 px or 10 ppt
+  bindsym $down       resize grow height 10 px or 10 ppt
+  bindsym $up         resize shrink height 10 px or 10 ppt
+  bindsym $right      resize grow width 10 px or 10 ppt
 
-        # same bindings, but for the arrow keys
-        bindsym Left        resize shrink width 10 px or 10 ppt
-        bindsym Down        resize grow height 10 px or 10 ppt
-        bindsym Up          resize shrink height 10 px or 10 ppt
-        bindsym Right       resize grow width 10 px or 10 ppt
+  # same bindings, but for the arrow keys
+  bindsym Left        resize shrink width 10 px or 10 ppt
+  bindsym Down        resize grow height 10 px or 10 ppt
+  bindsym Up          resize shrink height 10 px or 10 ppt
+  bindsym Right       resize grow width 10 px or 10 ppt
 
-        # back to normal: Enter or Escape
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
+  # back to normal: Enter or Escape
+  bindsym Return mode "default"
+  bindsym Escape mode "default"
 }
 
 bindsym Mod1+r mode "resize"
 
+# set primary gruvbox colorscheme colors
+set $bg #282828
+set $red #cc241d
+set $green #98971a
+set $yellow #d79921
+set $blue #458588
+set $purple #b16286
+set $aqua #689d68
+set $gray #a89984
+set $darkgray #1d2021
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-  status_command i3status
-  font pango:Firacode Bold 11
+  font pango:DejaVu Sans Mono, FontAwesome 10
+  position top
+  status_command ~/.bin/i3status-rs ~/.i3/i3status-rs_config.toml
   colors {
-    separator #333333
-    background #2c001e
-    statusline #aea79f
-    focused_workspace #dd4814 #dd4814 #ffffff
-    active_workspace #902a07 #902a07 #aea79f
-    inactive_workspace #902a07 #902a07 #aea79f
-    urgent_workspace #77216f #77216f #ffffff
+    background $bg
+    statusline $yellow
+    focused_workspace    $aqua $aqua $darkgray
+    inactive_workspace   $darkgray $darkgray $yellow
+    active_workspace     $darkgray $darkgray $yellow
+    urgent_workspace     $red $red $bg
   }
 }
 
@@ -192,21 +203,49 @@ bindsym $mod+Shift+1 move workspace to output left
 # move window to right monitor
 bindsym $mod+Shift+2 move workspace to output right
 
+# disable notifications
+bindsym $mod+Shift+y systemctl --user stop dunst.service
+bindsym $mod+Shift+u systemctl --user start dunst.service
+
+# audio and brightness controls
+# bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+ unmute
+# bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%- unmute
+# bindsym XF86AudioMute exec amixer -D pulse sset Master toggle
+# bindsym XF86MonBrightnessUp exec xbacklight -inc 20
+# bindsym XF86MonBrightnessDown exec xbacklight -dec 20 
+# bindsym XF86KbdBrightnessUp exec echo 200 | sudo tee /sys/class/leds/smc::kbd_backlight/brightness
+# bindsym XF86KbdBrightnessDown exec echo 0 | sudo tee /sys/class/leds/smc::kbd_backlight/brightness
+
 # screenshots with gyazo
 bindsym Print exec "gyazo"
 
 # restore nitrogen settings on startup
 exec "nitrogen --restore"
 
+# start network manager applet
+exec "nm-applet"
+
+# start blueman-applet
+# exec "blueman-applet"
+
+# start redshift
+exec "redshift-gtk"
+
+# rebind keys
+# exec "xmodmap ~/.Xmodmap"
+
+# enable tap clicking on trackpad
+# exec "xinput set-prop 11 288 1 && xinput set-prop 11 289 1"
+
 # i3 gaps styling
 for_window [class="^.*"] border pixel 1
 smart_borders on
-gaps inner 10
-gaps outer 10
+gaps inner 15
+gaps outer 15
 
-# i3 color scheme ; i3-style debian theme
+# i3 color scheme ; i3-style gruvbox theme
+
 client.focused #689d6a #689d6a #282828 #282828
 client.focused_inactive #1d2021 #1d2021 #928374 #282828
 client.unfocused #32302f #32302f #928374 #282828
 client.urgent #cc241d #cc241d #ebdbb2 #282828
-
