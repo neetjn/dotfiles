@@ -51,6 +51,7 @@ Plug 'heavenshell/vim-jsdoc'
 Plug 'mattesgroeger/vim-bookmarks'
 Plug 'amirh/html-autoclosetag'
 Plug 'severin-lemaignan/vim-minimap'
+Plug 'craigemery/vim-autotag'
 
 " themes
 Plug 'arcticicestudio/nord-vim'
