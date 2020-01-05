@@ -30,7 +30,7 @@ set $right l
 
 # Set windows key for cases where Alt is already in use
 set $mod Mod4
-bindsym Mod4+l exec "i3lock -c 000000"
+bindsym Mod4+l exec "betterlockscreen -l"
 
 # use Mouse+Mod1 to drag floating windows to their wanted position
 floating_modifier Mod1
