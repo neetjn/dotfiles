@@ -27,6 +27,7 @@ Plug 'jnwhiteh/vim-golang'
 Plug 'flowtype/vim-flow'
 Plug 'lcolaholicl/vim-v'
 Plug 'rust-lang/rust.vim'
+Plug 'OmniSharp/omnisharp-vim'
 
 " code syntax and standards
 Plug 'nvie/vim-flake8'
