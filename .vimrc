@@ -83,18 +83,18 @@ set updatetime=100
 set encoding=UTF-8
 set ic
 
-" enable true colors
+" enable clipboard copy paste
+set clipboard=unnamedplus
 
+" enable true colors
 " - xterm
 if $TERM == "xterm-256color"
   set t_Co=256
 endif
-
 " - cloud9
 if match($TERM, "screen")!=-1
   set term=xterm
 endif
-
 " - nvim
 if has('nvim') || has('termguicolors')
   set termguicolors
