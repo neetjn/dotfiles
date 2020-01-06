@@ -237,6 +237,9 @@ exec "redshift-gtk"
 # enable tap clicking on trackpad
 # exec "xinput set-prop 11 288 1 && xinput set-prop 11 289 1"
 
+# set key repeat speed
+# exec "xset r rate 185 60"
+
 # i3 gaps styling
 for_window [class="^.*"] border pixel 1
 smart_borders on
