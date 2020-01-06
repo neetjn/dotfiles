@@ -6,6 +6,10 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'webdevel/tabulous'
 Plug 'mbbill/undotree'
 
+" project organization
+Plug 'jceb/vim-orgmode'
+Plug 'tpope/vim-speeddating'
+
 " language implementation
 Plug 'vim-python/python-syntax'
 Plug 'pangloss/vim-javascript'
