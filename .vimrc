@@ -129,7 +129,6 @@ let g:ctrlp_max_depth=1000
 " editor settings
 syntax on
 set number
-set relativenumber
 set hlsearch
 set splitbelow
 set updatetime=100
