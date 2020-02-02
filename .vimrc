@@ -61,14 +61,7 @@ Plug 'craigemery/vim-autotag'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " themes
-Plug 'arcticicestudio/nord-vim'
-Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
-Plug 'drewtempelmeyer/palenight.vim', { 'as': 'palenight' }
-Plug 'morhetz/gruvbox'
-Plug 'AlessandroYorba/Sierra', { 'as': 'sierra' }
-Plug 'flrnd/plastic.vim', { 'as': 'plastic' }
-Plug 'relastle/bluewery.vim', { 'as': 'bluewery' }
-Plug 'artanikin/vim-synthwave84', { 'as': 'synthwave84' }
+Plug 'KurtPreston/vimcolors'
 Plug 'sainnhe/gruvbox-material'
 
 " vim file icons
@@ -92,11 +85,7 @@ endif
 
 " set theme
 set background=dark
-" set contrast
-" this configuration option should be placed before `colorscheme gruvbox-material`
-" available values: 'hard', 'medium'(default), 'soft'
-let g:gruvbox_material_background = 'soft'
-colorscheme gruvbox-material
+colorscheme mono_sw
 
 " set lightline theme
 let g:lightline = {}
