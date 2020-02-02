@@ -85,7 +85,7 @@ endif
 
 " set theme
 set background=dark
-colorscheme farout
+colorscheme azuki
 
 " set lightline theme
 let g:lightline = {}
