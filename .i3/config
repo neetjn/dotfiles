@@ -248,7 +248,6 @@ gaps outer 15
 
 # i3 color scheme ; i3-style gruvbox theme
 
-client.focused #689d6a #689d6a #282828 #282828
-client.focused_inactive #1d2021 #1d2021 #928374 #282828
-client.unfocused #32302f #32302f #928374 #282828
-client.urgent #cc241d #cc241d #ebdbb2 #282828
+client.unfocused #333333 #333333 #FFFFFF #333333
+client.focused_inactive #333333 #333333 #FFFFFF #000000
+client.focused #000000 #000000 #FFFFFF #000000
