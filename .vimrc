@@ -69,6 +69,9 @@ Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
+" fix tmux color variance
+set t_ut=
+
 " enable true colors
 " - xterm
 if $TERM == "xterm-256color"
