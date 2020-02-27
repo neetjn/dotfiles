@@ -240,6 +240,9 @@ exec "redshift-gtk"
 # set key repeat speed
 # exec "xset r rate 185 60"
 
+# for transparency
+exec --no-startup-id compton
+
 # i3 gaps styling
 for_window [class="^.*"] border pixel 1
 smart_borders on
