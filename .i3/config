@@ -249,8 +249,8 @@ smart_borders on
 gaps inner 15
 gaps outer 15
 
-# i3 color scheme ; i3-style gruvbox theme
-
-client.unfocused #333333 #333333 #FFFFFF #333333
-client.focused_inactive #333333 #333333 #FFFFFF #000000
-client.focused #000000 #000000 #FFFFFF #000000
+# i3 color scheme ; i3-style solarized theme
+client.focused #859900 #859900 #fdf6e3 #6c71c4
+client.focused_inactive #073642 #073642 #eee8d5 #6c71c4
+client.unfocused #073642 #073642 #93a1a1 #586e75
+client.urgent #d33682 #d33682 #fdf6e3 #dc322f

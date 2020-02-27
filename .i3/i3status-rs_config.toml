@@ -1,4 +1,4 @@
-theme = "gruvbox-dark"
+theme = "solarized-dark"
 icons = "awesome"
 
 [[block]]
