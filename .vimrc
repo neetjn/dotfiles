@@ -118,6 +118,7 @@ noremap <leader>lf :make --fix % <cr>:cwindow<cr>:redraw!<cr>
 " fuzzy file finder
 let g:ctrlp_max_files=0
 let g:ctrlp_max_depth=1000
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 " editor settings
 syntax on
