@@ -129,6 +129,7 @@ set updatetime=100
 set encoding=UTF-8
 set ic
 set laststatus=2
+set cursorline
 
 " enable clipboard copy paste
 set clipboard=unnamedplus
