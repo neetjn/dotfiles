@@ -89,7 +89,7 @@ endif
 
 " set theme
 set background=dark
-colorscheme mono_sw
+colorscheme miramare
 
 " set lightline theme
 let g:lightline = {}
