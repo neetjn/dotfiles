@@ -1,0 +1,5 @@
+{
+  "coc.preferences.useQuickfixForLocations": true,
+  "coc.preferences.snippets.enable": true,
+  "suggest.enablePreview": true
+}
