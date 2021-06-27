@@ -90,7 +90,7 @@ endif
 
 " set theme
 set background=dark
-colorscheme forest-night
+colorscheme miramare
 
 " set lightline theme
 let g:lightline = {}
