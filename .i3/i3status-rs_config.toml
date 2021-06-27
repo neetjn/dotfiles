@@ -14,8 +14,8 @@ alert = 10.0
 [[block]]
 block = "memory"
 display_type = "memory"
-format_mem = "{Mup}%"
-format_swap = "{SUp}%"
+format_mem = "{mem_total_used_percents}"
+format_swap = "{swap_used_percents}"
 
 [[block]]
 block = "cpu"
@@ -30,22 +30,6 @@ format = "{1m}"
 block = "sound"
 
 [[block]]
-block = "net"
-device = "wlp3s0"
-ssid = true
-signal_strength = true
-ip = false
-speed_up = false
-graph_up = false
-interval = 5
-use_bits = false
-
-[[block]]
-block = "battery"
-interval = 10
-format = "{percentage}% {time}"
-
-[[block]]
 block = "time"
 interval = 60
-format = "%a %m/%d %r"
+format = "%a %d/%m %R"ormat = "%a %m/%d %r"
