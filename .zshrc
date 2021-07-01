@@ -95,3 +95,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+# export DENO_INSTALL="/home/USER/.deno"
+# export PATH="$DENO_INSTALL/bin:$PATH"
