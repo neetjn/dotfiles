@@ -160,7 +160,7 @@ set showbreak=↪\
 
 " - COC-VIM SETTINGS
 
-let g:coc_global_extensions=['coc-json', 'coc-tsserver', 'coc-html', 'coc-css', 'coc-tailwindcss', 'coc-prettier', 'coc-python', 'coc-markdownlint', 'coc-omnisharp', 'coc-rls', 'coc-jest']
+let g:coc_global_extensions=['coc-json', 'coc-tsserver', 'coc-html', 'coc-css', 'coc-tailwindcss', 'coc-prettier', 'coc-python', 'coc-markdownlint', 'coc-omnisharp', 'coc-rls', 'coc-jest', 'coc-deno']
 
 " if hidden is not set, TextEdit might fail.
 set hidden
