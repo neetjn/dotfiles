@@ -53,4 +53,4 @@ code --install-extension RobbOwen.synthwave-vscode
 code --install-extension be5invis.vscode-custom-css
 code --install-extension sdras.night-owl
 code --install-extension johnpapa.vscode-peacock
-
+code --install-extension sainnhe.gruvbox-material
