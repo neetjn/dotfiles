@@ -34,6 +34,9 @@ Plug 'lcolaholicl/vim-v'
 Plug 'rust-lang/rust.vim'
 Plug 'OmniSharp/omnisharp-vim'
 Plug 'styled-components/vim-styled-components'
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'natebosch/vim-lsc'
+Plug 'natebosch/vim-lsc-dart'
 
 " code syntax and standards
 Plug 'nvie/vim-flake8'
@@ -160,7 +163,7 @@ set showbreak=↪\
 
 " - COC-VIM SETTINGS
 
-let g:coc_global_extensions=['coc-json', 'coc-tsserver', 'coc-html', 'coc-css', 'coc-tailwindcss', 'coc-prettier', 'coc-python', 'coc-markdownlint', 'coc-omnisharp', 'coc-rls', 'coc-jest', 'coc-deno']
+let g:coc_global_extensions=['coc-json', 'coc-tsserver', 'coc-html', 'coc-css', 'coc-tailwindcss', 'coc-prettier', 'coc-python', 'coc-markdownlint', 'coc-omnisharp', 'coc-rls', 'coc-jest', 'coc-deno', 'coc-flutter']
 
 " if hidden is not set, TextEdit might fail.
 set hidden
