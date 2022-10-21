@@ -37,6 +37,9 @@ Plug 'styled-components/vim-styled-components'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'
+Plug 'elixir-editors/vim-elixir'
+Plug 'hashivim/vim-terraform'
+Plug 'gkz/vim-ls'
 
 " code syntax and standards
 Plug 'nvie/vim-flake8'
@@ -64,10 +67,13 @@ Plug 'amirh/html-autoclosetag'
 Plug 'severin-lemaignan/vim-minimap'
 Plug 'craigemery/vim-autotag'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'zivyangll/git-blame.vim'
 
 " themes
 Plug 'KurtPreston/vimcolors'
 Plug 'sainnhe/gruvbox-material'
+Plug 'AxolotlC/Fox.vim'
+Plug 'junegunn/seoul256.vim'
 
 " vim file icons
 Plug 'ryanoasis/vim-devicons'
@@ -93,7 +99,8 @@ endif
 
 " set theme
 set background=dark
-colorscheme miramare
+" colo seoul256
+colo gruvbox
 
 " set lightline theme
 let g:lightline = {}
@@ -183,6 +190,9 @@ set shortmess+=c
 
 " always show signcolumns
 set signcolumn=yes
+
+" blamer remap
+nnoremap <Leader>s :<C-u>call gitblame#echo()<CR>
 
 " Use tab for trigger completion with characters ahead and navigate.
 " Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
@@ -293,4 +303,3 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
-
