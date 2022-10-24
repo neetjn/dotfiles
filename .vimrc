@@ -40,6 +40,7 @@ Plug 'natebosch/vim-lsc-dart'
 Plug 'elixir-editors/vim-elixir'
 Plug 'hashivim/vim-terraform'
 Plug 'gkz/vim-ls'
+Plug 'ollykel/v-vim'
 
 " code syntax and standards
 Plug 'nvie/vim-flake8'
