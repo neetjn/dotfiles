@@ -41,6 +41,7 @@ Plug 'elixir-editors/vim-elixir'
 Plug 'hashivim/vim-terraform'
 Plug 'gkz/vim-ls'
 Plug 'ollykel/v-vim'
+Plug 'ziglang/zig.vim'
 
 " code syntax and standards
 Plug 'nvie/vim-flake8'
